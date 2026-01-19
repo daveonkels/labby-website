@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Labby</title>
+  <meta name="description" content="Privacy Policy for Labby, the native iOS client for Homepage dashboard.">
+  <meta name="theme-color" content="#050505">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'labby-black': '#050505',
+            'labby-card': '#1a1a1a',
+            'labby-green': '#39E53D',
+            'labby-green-dim': 'rgba(57, 229, 61, 0.15)',
+          },
+          fontFamily: {
+            'display': ['Geist', 'system-ui', 'sans-serif'],
+            'mono': ['JetBrains Mono', 'monospace'],
+            'body': ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #050505;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+    .glow-green {
+      box-shadow: 0 0 20px rgba(57, 229, 61, 0.4);
+    }
+    .prose-custom h2 {
+      color: white;
+      font-family: 'Geist', system-ui, sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .prose-custom h3 {
+      color: white;
+      font-family: 'Geist', system-ui, sans-serif;
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .prose-custom p {
+      color: #9CA3AF;
+      margin-bottom: 1rem;
+      line-height: 1.75;
+    }
+    .prose-custom ul {
+      color: #9CA3AF;
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+    }
+    .prose-custom li {
+      margin-bottom: 0.5rem;
+    }
+    .prose-custom code {
+      font-family: 'JetBrains Mono', monospace;
+      color: #39E53D;
+      background: rgba(57, 229, 61, 0.15);
+      padding: 0.125rem 0.375rem;
+      border-radius: 0.25rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body class="text-white antialiased">
+
+  <!-- Navbar -->
+  <nav class="border-b border-white/5 bg-labby-black/80 backdrop-blur-xl sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <img src="assets/labby-logo.png" alt="Labby" class="w-10 h-10 rounded-xl group-hover:shadow-[0_0_15px_rgba(57,229,61,0.4)] transition-shadow">
+        <span class="font-display font-bold text-xl tracking-tight">Labby</span>
+      </a>
+      <a href="/" class="text-gray-400 hover:text-white transition-colors text-sm font-medium">Back to Home</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="max-w-4xl mx-auto px-6 py-16">
+    <div class="mb-12">
+      <p class="font-mono text-labby-green text-sm tracking-wider uppercase mb-4">Legal</p>
+      <h1 class="font-display font-bold text-4xl md:text-5xl tracking-tight mb-4">Privacy Policy</h1>
+      <p class="text-gray-400">Last updated: January 2025</p>
+    </div>
+
+    <div class="prose-custom">
+      <p>
+        Labby ("the App") is designed with privacy as a core principle. This Privacy Policy explains how we handle your information when you use our iOS application.
+      </p>
+
+      <h2>The Short Version</h2>
+      <p>
+        <strong class="text-white">We don't collect your data.</strong> Labby is a local-first application that connects directly to your self-hosted <a href="https://gethomepage.dev" target="_blank" rel="noopener" class="text-labby-green hover:underline">Homepage</a> instance. Your data stays on your device and your servers.
+      </p>
+
+      <h2>Information We Don't Collect</h2>
+      <p>Labby does not collect, store, or transmit:</p>
+      <ul>
+        <li>Personal information (name, email, phone number)</li>
+        <li>Usage analytics or telemetry</li>
+        <li>Your Homepage configuration or service data</li>
+        <li>IP addresses or location data</li>
+        <li>Device identifiers for tracking purposes</li>
+      </ul>
+
+      <h2>Information Stored Locally</h2>
+      <p>The following information is stored only on your device using iOS's secure storage mechanisms:</p>
+      <ul>
+        <li><strong class="text-white">Homepage URL:</strong> The URL of your Homepage instance that you provide during setup</li>
+        <li><strong class="text-white">Service Data:</strong> Cached information about your services parsed from Homepage</li>
+        <li><strong class="text-white">App Preferences:</strong> Your settings and customizations (theme, layout, etc.)</li>
+        <li><strong class="text-white">Browser Cookies:</strong> Cookies from services you access through the built-in browser</li>
+      </ul>
+      <p>This data never leaves your device and is not accessible to us.</p>
+
+      <h2>Network Connections</h2>
+      <p>Labby makes network requests only to:</p>
+      <ul>
+        <li>Your Homepage instance (the URL you configure)</li>
+        <li>Services listed in your Homepage dashboard (when you tap to access them)</li>
+      </ul>
+      <p>
+        We do not operate any servers that receive data from the App. All connections are directly between your device and your self-hosted infrastructure.
+      </p>
+
+      <h3>Self-Signed Certificates</h3>
+      <p>
+        Labby supports connections to servers with self-signed SSL certificates. When you enable this feature, the app will trust certificates that iOS would normally reject. This is necessary for many homelab setups but means you should ensure you trust the servers you're connecting to.
+      </p>
+
+      <h2>Apple Intelligence Features</h2>
+      <p>
+        If you use the AI background generation feature, this processing occurs entirely on-device using Apple's built-in machine learning frameworks. No images or prompts are sent to external servers.
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Labby does not integrate with any third-party analytics, advertising, or tracking services. We don't use Firebase, Google Analytics, Facebook SDK, or similar tools.
+      </p>
+
+      <h2>Data Deletion</h2>
+      <p>
+        To delete all data stored by Labby, simply uninstall the app from your device. Since we don't store any data remotely, uninstalling the app completely removes all associated data.
+      </p>
+      <p>
+        You can also clear specific data from within the app's Settings screen.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        Labby does not knowingly collect information from children under 13. The app is designed for homelab enthusiasts managing their own infrastructure.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, please contact us through the app's support channels.
+      </p>
+
+      <div class="mt-12 p-6 bg-labby-card rounded-xl border border-white/10">
+        <p class="text-sm text-gray-400 mb-0">
+          <strong class="text-labby-green">TL;DR:</strong> Labby is a local app that talks directly to your servers. We don't see your data, we don't want your data, and we've built the app so we can't access your data even if we wanted to. Your homelab stays yours.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-8">
+    <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-sm text-gray-500">Labby is not affiliated with the <a href="https://gethomepage.dev" target="_blank" rel="noopener" class="hover:text-white transition-colors underline underline-offset-2 decoration-gray-600 hover:decoration-white">Homepage</a> project.</p>
+      <div class="flex items-center gap-6 text-sm text-gray-400">
+        <a href="privacy.html" class="text-labby-green underline underline-offset-2 decoration-labby-green/50">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-white transition-colors underline underline-offset-2 decoration-gray-600 hover:decoration-white">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

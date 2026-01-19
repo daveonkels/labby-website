@@ -1,0 +1,24 @@
+{
+  "defaults": {
+    "provider": "gemini",
+    "geminiModel": "pro",
+    "quality": "high"
+  },
+  "jobs": [
+    {
+      "prompt": "Abstract dark grid pattern on deep black background #050505, subtle terminal green gridlines #39E53D at 5% opacity, CRT monitor scanline texture, vaporwave cyberpunk aesthetic, seamless tileable pattern, minimal",
+      "outputName": "grid-texture",
+      "size": "1024x1024"
+    },
+    {
+      "prompt": "Minimalist homelab server room visualization, dark OLED black background #050505, glowing terminal green #39E53D LED status lights in rows, subtle rack server silhouettes, network cables with green glow, moody atmospheric lighting, cinematic wide shot, clean modern aesthetic",
+      "outputName": "hero-bg",
+      "size": "1536x1024"
+    },
+    {
+      "prompt": "Abstract pulse wave ECG heartbeat visualization representing health monitoring, bright terminal green #39E53D sine wave on pure black background, CRT phosphor glow effect, minimal medical monitor aesthetic, clean lines",
+      "outputName": "feature-health",
+      "size": "512x512"
+    }
+  ]
+}
