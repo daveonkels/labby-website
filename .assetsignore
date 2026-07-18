@@ -1,0 +1,10 @@
+.git/
+.gitignore
+.assetsignore
+.wrangler/
+.env
+.env.*
+.DS_Store
+labby-assets.json
+wrangler.jsonc
+DEPLOYMENT.md
