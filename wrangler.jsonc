@@ -1,6 +1,13 @@
 {
   "name": "labby-casa",
   "compatibility_date": "2026-07-18",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "labby.casa",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": ".",
     "not_found_handling": "404-page",
